@@ -63,7 +63,6 @@ innerHTML: "<strong>TEST<strong>" = "TEST" (but bigger)
    ```
 5. 排他思想 --- 先把其他全部还原，最后改目标元素
 
-
 ### 获取元素
 
 * element.xxx -> 能得到元素本身内置的属性
@@ -80,17 +79,20 @@ element.dataset = {'index': 1, 'name': "Jeff"}
 ### 节点操作
 
 1. 获取父节点/子节点的方式v
+
    ```
    var a = document.querySelector('a');
    var parent = a.parentNode;
    var child = a.childNodes;
    ```
 2. 获取兄弟节点
+
    ```
    a.nextSibling -> 包含文本+元素节点
    a.nextElementSibling -> 只要元素节点
    ```
 3. 创建/删除节点
+
    ```
    var node = document.createElement("div");
    var xxx = document.createElement("li");
@@ -99,6 +101,7 @@ element.dataset = {'index': 1, 'name': "Jeff"}
    node.removeChild(xxx); --- 删除节点
    ```
 4. 复制节点
+
    ```
    node.cloneNode() --- 浅拷贝，只拷贝自己
    node.cloneNode(true) --- 深拷贝，拷贝自己和自己的子节点

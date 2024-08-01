@@ -1,5 +1,5 @@
 ---
-title: 事件高级
+title: Event in JavaScript
 date: 2024-07-31 16:48:44
 tags:
 ---
@@ -26,8 +26,9 @@ tags:
 
 ## DOM事件流的三个阶段
 
-1. ![1722419475374](images/事件高级/1722419475374.png)
-2. 三个阶段分别为：
+1. ![1](images/事件高级/1722419475374.png)
+2. <img src="images/test.png" title="拼写检查工具Grammarly." alt="拼写检查工具Grammarly."/>
+3. 三个阶段分别为：
    捕获: document -> html -> body -> div -> xxx
    当前: xxx -> target
    冒泡 target -> xxx -> div -> body -> html -> document
