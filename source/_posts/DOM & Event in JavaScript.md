@@ -88,4 +88,7 @@ Eg: 一个ul下有很多li，点击li后，会冒泡到ul上，ul上有注册事
    e.pageY      返回鼠标相对于文档页面的 Y 坐标 IE9+ 支持
    e.screenX    返回鼠标相对于电脑屏幕的 X 坐标
    e.screenY    返回鼠标相对于电脑屏幕的 Y 坐标
+   e.mouseover  会冒泡，当进入自身/自身的子盒子时会触发
+   e.mouseenter 不会冒泡，进入自身会触发
+   e.mouseleave 不会冒泡，离开自身会触发
    ```
