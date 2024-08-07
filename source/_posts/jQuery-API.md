@@ -113,6 +113,20 @@ $(function() {
 
 ## 尺寸，位置操作
 
+#### jQuery尺寸
+
+{%asset_img 1723008506020.png%}
+
+#### jQuery位置
+
+主要分为`offset()`, `position()`, `scrollTop()/scrollLeft()` 三个部分
+
+* offset() --- 设置或返回被选元素相对于**文档**的偏移坐标
+  有两个属性 `offset().top` 和 `offset().left`
+  设置方法为 `offset({top:10, left: 10})`
+* position() --- 设置或返回被选元素相对于**带有定位的父亲**的偏移坐标
+* scrollTop() --- 设置或返回被选元素**被卷去的头部**
+
 ## 效果
 
 #### 常见的动画效果
