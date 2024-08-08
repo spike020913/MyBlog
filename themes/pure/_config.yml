@@ -179,7 +179,7 @@ pv:
         
 # wordcount
 postCount:
-  enable: false
+  enable: 
   wordcount: true  # 文章字数统计
   min2read: true  # 阅读时长预计 
 
@@ -203,7 +203,7 @@ profile:
   avatar: images/avatar.jpg
   gravatar: # Gravatar email address, if you enable Gravatar, your avatar config will be overriden
   author: Jeff Fan
-  author_title: Frontend Web Dev
+  author_title: Frontend Web Developer
   author_description: Whatever happens, happens.
   location: Beijing, China
   follow: https://github.com/spike020913
