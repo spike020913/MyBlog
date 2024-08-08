@@ -1,7 +1,9 @@
 ---
 title: jQuery
 date: 2024-08-05 17:47:15
-tags:
+tags: [jQuery]
+categories: 
+- JavaScript
 ---
 ## 什么是jQuery？
 

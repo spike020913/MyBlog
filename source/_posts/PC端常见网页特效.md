@@ -1,7 +1,9 @@
 ---
 title: PC端常见网页特效
 date: 2024-08-02 14:00:58
-tags:
+tags: [effects]
+categories: 
+- JavaScript
 ---
 ## offset属性
 

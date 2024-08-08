@@ -1,7 +1,9 @@
 ---
 title: DOM & Event in JavaScript
 date: 2024-07-31 16:48:44
-tags:
+tags: [DOM]
+categories: 
+- JavaScript
 ---
 ## 注册事件的两种方式
 

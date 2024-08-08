@@ -1,7 +1,9 @@
 ---
 title: Local Storage
 date: 2024-08-05 17:45:37
-tags:
+tags: [storage]
+categories: 
+- JavaScript
 ---
 ## sesstionStorage
 

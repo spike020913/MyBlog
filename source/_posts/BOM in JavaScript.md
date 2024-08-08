@@ -2,7 +2,9 @@
 layout: bom
 title: BOM in JavaScript
 date: 2024-08-01 16:33:10
-tags:
+tags: [BOM]
+categories: 
+- JavaScript
 ---
 ## 什么是BOM？
 
@@ -11,7 +13,6 @@ tags:
 BOM ( Browser Object Model )即浏览器对象模型，它提供了独立于内容而与浏览器窗口进行交互的对象，其核心对象是 window
 BOM由一系列相关的对象构成，并且每个对象都提供了很多方法与属性。
 BOM缺乏标准， JavaScript语法的标准化组织是 ECMA , DOM的标准化组织是W3C , BOM最初是Netscape浏览器标准的一部分。
-
 
 ### BOM和DOM的区别
 
@@ -29,7 +30,6 @@ BOM的顶级对象是 window
 BOM 学习的是浏览器窗口交互的一些对象
 BOM 是浏览器厂商在各自浏览器上定义的，兼容性较差
 BOM > DOM, WINDOWS是顶级对象，document是windows的child
-
 
 ## Windows对象的常见事件
 

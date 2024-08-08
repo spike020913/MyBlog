@@ -1,7 +1,9 @@
 ---
 title: jQuery API
 date: 2024-08-06 14:17:49
-tags:
+tags: [jQuery]
+categories: 
+- JavaScript
 ---
 ## 选择器
 

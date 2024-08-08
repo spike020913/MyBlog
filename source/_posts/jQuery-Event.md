@@ -1,7 +1,9 @@
 ---
 title: jQuery-Event
 date: 2024-08-07 14:54:46
-tags:
+tags: [jQuery]
+categories: 
+- JavaScript
 ---
 ## 4种常见的jQuery事件
 
@@ -68,11 +70,9 @@ target：要拷贝的目标对象
 
 object1：待拷贝到第一个对象的对象
 
-
 #### 多库共存
 
 其他js库也会使用`$`作为标识符，导致冲突 --- 使用`jQuery`来代替`$`
-
 
 #### jQuery插件 --- www.jq22.com
 
