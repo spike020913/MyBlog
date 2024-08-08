@@ -1,7 +1,7 @@
 ---
 title: JavaScript中的DOM
 date: 2024-07-31 12:22:21
-tags:
+tags: [JavaScript]
 ---
 ### DOM是什么？
 
