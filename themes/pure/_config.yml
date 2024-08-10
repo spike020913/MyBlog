@@ -5,8 +5,8 @@ menu:
   Categories: categories  # 分类
   Tags: tags  # 标签
   Repository: repository  # github repositories
-  Books: books  # 豆瓣书单
-  Links: links  # 友链
+  # Books: books  # 豆瓣书单
+  # Links: links  # 友链
   About: about  # 关于
 
 # Enable/Disable menu icons
@@ -79,7 +79,7 @@ archive_type: 'monthly'
 show_count: true
 
 # Fancybox
-fancybox: false
+fancybox: true
 
 # Search
 search:
@@ -141,8 +141,8 @@ comment:
     language: zh-CN
     
   valine: # Valine. https://valine.js.org
-    appid:  # your leancloud application appid
-    appkey:  # your leancloud application appkey
+    appid:  LVWVMdVBK8AMzzOB7Q1AARm7-gzGzoHsz # your leancloud application appid
+    appkey:  EhXQ2feuoKo8M8V0OQvhxUBL # your leancloud application appkey
     notify: false # mail notifier , https://github.com/xCss/Valine/wiki
     verify: false # Verification code
     placeholder: Just go go # comment box placeholder
@@ -173,13 +173,13 @@ pv:
   busuanzi:
     enable: false  # 不蒜子统计
   leancloud:
-    enable: false  # leancloud统计
-    app_id: # leancloud <AppID>
-    app_key: # leancloud <AppKey>
+    enable: true  # leancloud统计
+    app_id: LVWVMdVBK8AMzzOB7Q1AARm7-gzGzoHsz # leancloud <AppID>
+    app_key: EhXQ2feuoKo8M8V0OQvhxUBL # leancloud <AppKey>
         
 # wordcount
 postCount:
-  enable: 
+  enable: true
   wordcount: true  # 文章字数统计
   min2read: true  # 阅读时长预计 
 
