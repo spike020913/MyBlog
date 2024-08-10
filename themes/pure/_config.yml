@@ -31,10 +31,10 @@ site:
     width: 40
     height: 40
     url: ../images/logo.png
-  title: Hexo # 页面title
+  title: Jeff's Blog # 页面title
   favicon: /favicon.png
-  board: <p>400g的计算机笔记</p> # 站点公告
-  copyright: false # 底部版权信息
+  board: <p>Jeff's 计算机笔记</p> # 站点公告
+  copyright: true # 底部版权信息
 
 # config
 config:
@@ -145,8 +145,8 @@ comment:
     appkey:  EhXQ2feuoKo8M8V0OQvhxUBL # your leancloud application appkey
     notify: false # mail notifier , https://github.com/xCss/Valine/wiki
     verify: false # Verification code
-    placeholder: Just go go # comment box placeholder
-    avatar: mm # gravatar style
+    placeholder: What can I say? # comment box placeholder
+    avatar: mp # gravatar style
     meta: nick,mail,link # custom comment header
     pageSize: 10 # pagination size
     visitor: false # Article reading statistic https://valine.js.org/visitor.html
