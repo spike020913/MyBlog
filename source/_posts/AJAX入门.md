@@ -39,18 +39,15 @@ categories:
    * 浏览器网页中，使用 AJAX技术（XHR对象）发起获取省份列表数据的请求，服务器代码响应准备好的省份列表数据给前端，前端拿到数据数组以后，展示到网页
 
      {% asset_img image-20230403173156484.png %}
-2. 什么是服务器？
-
-   * 可以暂时理解为提供数据的一台电脑
-3. 为何学 AJAX ?
+2. 为何学 AJAX ?
 
    * 以前我们的数据都是写在代码里固定的, 无法随时变化
    * 现在我们的数据可以从服务器上进行获取，让数据变活
-4. 怎么学 AJAX ?
+3. 怎么学 AJAX ?
 
    * 这里使用一个第三方库叫 axios, 后续在学习 XMLHttpRequest 对象了解 AJAX 底层原理
-   * 因为 axios 库语法简单，让我们有更多精力关注在与服务器通信上，而且后续 Vue，React 学习中，也使用 axios 库与服务器通信
-5. 需求：从服务器获取省份列表数据，展示到页面上（体验 axios 语法的使用）
+   * axios 库语法简单，让我们有更多精力关注在与服务器通信上，而且后续 Vue，React 学习中，也使用 axios 库与服务器通信
+4. 需求：从服务器获取省份列表数据，展示到页面上（体验 axios 语法的使用）
 
    > 获取省份列表数据 - 目标资源地址：http://hmajax.itheima.net/api/province
    >
@@ -58,12 +55,12 @@ categories:
    * 完成效果：
 
      {% asset_img image-20230220113157010.png %}
-6. 接下来讲解 axios 语法，步骤：
-7. 引入 axios.js 文件到自己的网页中
+5. 接下来讲解 axios 语法，步骤：
+6. 引入 axios.js 文件到自己的网页中
 
    > axios.js文件链接: https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js
    >
-8. 明确axios函数的使用语法
+7. 明确axios函数的使用语法
 
    ```js
    axios({
@@ -77,7 +74,7 @@ categories:
    >
    > 注意：then 方法这里先体验使用，由来后续会讲到
    >
-9. 对应代码
+8. 对应代码
 
 ```html
 <!DOCTYPE html>

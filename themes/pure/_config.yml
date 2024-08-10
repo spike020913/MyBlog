@@ -33,7 +33,7 @@ site:
     url: ../images/logo.png
   title: Jeff's Blog # 页面title
   favicon: /favicon.png
-  board: <p>Jeff's 计算机笔记</p> # 站点公告
+  board: <p>姐夫饭的前端学习笔记</p> # 站点公告
   copyright: true # 底部版权信息
 
 # config
