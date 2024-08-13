@@ -5,7 +5,7 @@ tags:
 categories:
 - Ajax
 ---
-# Ajax入门
+# AJAX入门
 
 ## 目录
 
