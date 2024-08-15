@@ -561,7 +561,7 @@ categories:
    {%asset_img image-20230222184920343.png%}
 4. 事件循环模型
 
-   > 具体运行效果，参考 PPT 动画或者视频
+   > 只有Promise对象.then()属于微任务，微任务优先于宏任务
    >
 
    ```js
