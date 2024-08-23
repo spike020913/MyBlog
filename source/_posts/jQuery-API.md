@@ -1,5 +1,5 @@
 ---
-title: jQuery API
+title: jQuery-API
 date: 2024-08-06 14:17:49
 tags: [jQuery]
 categories: 

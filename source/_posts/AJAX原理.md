@@ -1,9 +1,9 @@
 ---
 title: AJAX原理
 date: 2024-08-13 20:12:44
-tags:
+tags: [AJAX]
 categories:
-- Ajax
+- JavaScript
 ---
 # AJAX原理
 

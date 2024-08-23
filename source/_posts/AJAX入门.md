@@ -1,9 +1,9 @@
 ---
 title: AJAX入门
 date: 2024-08-10 17:27:34
-tags: 
+tags: [AJAX]
 categories:
-- Ajax
+- JavaScript
 ---
 # AJAX入门
 

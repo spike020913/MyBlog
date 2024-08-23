@@ -1,6 +1,5 @@
 ---
-layout: bom
-title: BOM in JavaScript
+title: BOM
 date: 2024-08-01 16:33:10
 tags: [BOM]
 categories: 
@@ -47,9 +46,9 @@ BOM > DOM, WINDOWS是顶级对象，document是windows的child
 
 ## 定时器
 
-1. setTimeout(回调函数，时间(ms)) --- 等待x秒后执行一次回调函数
-2. window.clearTimeout(name)
-3. setInterval(回调函数，时间(ms)) --- 等待x秒后一直执行回调函数
+1. `setTimeout(回调函数，时间(ms))` --- 等待x秒后执行一次回调函数
+2. `window.clearTimeout(name)`
+3. `setInterval(回调函数，时间(ms))` --- 等待x秒后一直执行回调函数
 4. This指向问题
 
 ## JS执行机制
@@ -108,6 +107,6 @@ BOM > DOM, WINDOWS是顶级对象，document是windows的child
 ## history对象
 
 window对象给我们提供了一个history对象,与浏览器历史记录进行交互。该对象包含用户（在浏览器窗口中)访问过的 URL。history对象方法：
-back() --- 后退
-forward() --- 前进
-go() --- 前进后退功能（参数如果是1前进1个页面，如果是-1后退1个页面）
+`back()` --- 后退
+`forward()` --- 前进
+``go() --- 前进后退功能（参数如果是1前进1个页面，如果是-1后退1个页面）

@@ -1,9 +1,9 @@
 ---
 title: AJAX进阶
 date: 2024-08-14 17:26:37
-tags:
+tags: [AJAX]
 categories:
-- Ajax
+- JavaScript
 ---
 # AJAX进阶
 

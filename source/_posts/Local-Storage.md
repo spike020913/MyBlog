@@ -1,5 +1,5 @@
 ---
-title: Local Storage
+title: Local-Storage
 date: 2024-08-05 17:45:37
 tags: [storage]
 categories: 
