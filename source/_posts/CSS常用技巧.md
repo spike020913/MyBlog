@@ -42,8 +42,21 @@ categories:
    }
    3. 
    ```
+2. ```html
+   .center { 
+       height: 200px;
+       position: relative;
+       border: 3px solid green; 
+   }
 
-   https://www.runoob.com/css/css-align.html
+   .center p {
+       margin: 0;
+       position: absolute;
+       top: 50%;
+       left: 50%;
+       transform: translate(-50%, -50%);
+   }
+   ```
 
 ## 清除所有元素内外边距
 
