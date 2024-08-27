@@ -31,17 +31,19 @@ categories:
  }   
 ```
 
-## 垂直居中方法
+## 水平 + 垂直居中方法
 
 1. ```javascript
-   1
+   .father {
+       display:flex;
+   }
+   .child {
+       align-self: center;
+   }
+   3. 
    ```
-2. ```javascript
-   1
-   ```
-3. ```javascript
-   1
-   ```
+
+   https://www.runoob.com/css/css-align.html
 
 ## 清除所有元素内外边距
 
